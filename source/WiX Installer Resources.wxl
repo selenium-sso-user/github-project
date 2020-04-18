@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization xmlns="http://wixtoolset.org/schemas/v4/wxl">
+    <String Id="CancelAction" Overridable="yes">Cancel</String>
+    <String Id="SendAction" Overridable="yes">Send</String>
+    <String Id="DeleteAction" Overridable="yes">Delete</String>
+</WixLocalization>

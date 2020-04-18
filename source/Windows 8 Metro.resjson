@@ -1,0 +1,10 @@
+{
+  "loc.input.label.username": "Username",
+  "loc.input.help.username": "Specify the username for server authentication.",
+  "loc.input.label.password": "Password",
+  "loc.input.help.password": "Specify the password for server authentication",
+  "loc.input.label.url": "URL",
+  "loc.input.label.options": "Optional Arguments",
+  "loc.input.help.options": "Additional arguments that will be passed to cURL."
+
+}

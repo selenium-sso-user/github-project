@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <H1>My First Heading 🔥</H1>
+
+  <p {% if row.upperline %} class="receipt-upperline" {% endif %}>My first paragraph ⛄️</p>
+
+  <p class="test-class">
+    You may provide arbitrary sections, in the same format as the ones above. This may be
+    of use for extremely complicated plugins where more information needs.
+  </p>
+  <p class="test-class">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+		Et harum quidem rerum facilis est et expedita distinctio.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+  </p>
+  <div ng-switch-when="boolean" ng-if="param.optional" class="radio">
+    <label>
+      <input type="radio"
+             ng-model="apiMethod.params[param.name]"
+             name="{{param.name}}"
+             id="{{param.name}}_true"
+             ng-value="true">
+      true
+    </label>
+  </div>
+  <div ng-switch-when="boolean" ng-if="param.optional" class="radio">
+    <label>
+      <input id="marketingCookies" class="checkbox-radio" type="checkbox"
+      <?php
+       echo (($this->Session->read('CookieLorem.Test') === 'consent') || in_array(DOMAIN, ['US', 'UA'])) ? 'checked="checked"' :''?>
+      >
+      <input type="radio"
+             ng-model="apiMethod.params[param.name]"
+             name="{{param.name}}"
+             id="{{param.name}}_false"
+             ng-value="false">
+      false
+      <input id="marketing" class="checkbox-radio" type="checkbox"
+      <?
+          echo (($this->Session->read('CookieLorem.Name') === 'consent') || in_array(DOMAIN, ['US', 'UA'])) ? 'checked="checked"' :''
+      ?>
+      >
+    </label>
+  </div>
+  <h3>3</h3>
+</body>
+</html>
+

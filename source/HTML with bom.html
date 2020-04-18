@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+  <h1>My First Heading 🔥</h1>
+
+  <p>My first paragraph ⛄️</p>
+
+  <p class="test-class">
+    You may provide arbitrary sections, in the same format as the ones above. This may be 
+    of use for extremely complicated plugins where more information needs.
+  </p>
+  <p class="test-class">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+		Et harum quidem rerum facilis est et expedita distinctio.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+  </p>
+  <div ng-switch-when="boolean" ng-if="param.optional" class="radio">
+    <label>
+      <input type="radio"
+             ng-model="apiMethod.params[param.name]"
+             name="{{param.name}}"
+             id="{{param.name}}_true"
+             ng-value="true">
+      true
+    </label>
+  </div>
+  <div ng-switch-when="boolean" ng-if="param.optional" class="radio">
+    <label>
+      <input type="radio"
+             ng-model="apiMethod.params[param.name]"
+             name="{{param.name}}"
+             id="{{param.name}}_false"
+             ng-value="false">
+      false
+    </label>
+  </div>
+</body>
+</html>
+

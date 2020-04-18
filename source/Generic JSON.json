@@ -1,0 +1,12 @@
+{
+   "ext_name":  "Translator for all languages",
+   "msg_Default": "Default",
+   "msg_detectlang": "Detect language",
+   "msg_gohome": "Go Home.",
+   "msg_reloadtrans": "Reload Translator",
+   "msg_sellang": "Select language",
+   "msg_source": "Source",
+   "msg_target": "Target",
+   "key": null,
+   "": "New Target"
+}

@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:System="clr-namespace:System;assembly=mscorlib">
+
+    <!--  Application  -->
+    <System:String x:Key="ApplicationTitle">Rebtel</System:String> 
+    <System:String x:Key="ButtonText_Save">Save</System:String>
+    <System:String x:Key="SignUp_Message3">Call how you want - anytime, anywhere!</System:String>
+    
+    <!--  Welcome back  -->
+    <System:String x:Key="SignUpTitle">Rebtel</System:String>
+    <System:String x:Key="SignupStep1_callout2">Click to start!</System:String>
+    <System:String x:Key="SignupStep1_textblock3">Quick and easy sign up</System:String>
+    
+</ResourceDictionary>

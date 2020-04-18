@@ -1,0 +1,4 @@
+{
+  "NEW_MESSAGES":"{newMessages, plural, one {1 new message} other {{newMessages} new messages}}",
+  "LAST_SEEN":"more than {days, plural, one {1 day} other {{days} days}} ago"
+}

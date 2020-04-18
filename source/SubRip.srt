@@ -1,0 +1,32 @@
+﻿1
+00:00:03,255 --> 00:00:06,970
+Git, a distributed source
+control repository.
+
+2
+00:00:06,970 --> 00:00:09,400
+I tried to picture clusters of
+information as they move
+
+3
+00:00:09,400 --> 00:00:11,210
+through the file system.
+
+4
+00:00:11,210 --> 00:00:13,820
+Were the commit messages
+like history books?
+
+5
+00:00:13,820 --> 00:00:16,172
+I kept dreaming of
+a repository I
+
+6
+00:00:16,172 --> 00:00:18,210
+thought I'd never see.
+
+7
+00:00:18,210 --> 00:00:22,205
+And then, one day: Git Real.
+

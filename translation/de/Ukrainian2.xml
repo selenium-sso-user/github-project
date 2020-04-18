@@ -6,7 +6,7 @@
   <string name="body">Ми рекомендуємо завантажувати карти через Wi-Fi</string>
   <string name="bigbutton">Завантажити карти зараз</string>
   <string name="close">Пізніше</string>
-  <string name="sdl.error.incompatible">Sygic несумісний із підключеним пристроєм. Необхідний сенсорний екран і можливіть програвати відео.</string>
+  <string name="sdl.error.incompatible">Sygic несумісний із підключеним пристроєм. Необхідний сенсорний екран і можливіть програвати відео.</string>
   <string name="sdl.error.connection">Помилка при підключенні до автомобілю.</string>
   <string name="fuel_header">Ціни на пальне для всіх</string>
   <string name="fuel_body">Нова функція перегляду цін на пальне тепер доступна безкоштовно й назавжди! Лише підключіться до Інтернету, щоб дізнатися найкращі ціни у вашому регіоні.</string>

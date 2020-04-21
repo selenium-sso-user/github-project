@@ -1,0 +1,32 @@
+#include "resource.h"
+
+IDR_SKETCH_MENU MENU
+BEGIN
+    POPUP "&File"	// single comment for popup
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW // hello
+        MENUITEM "New FlipBook...",             ID_FILE_NEWFLIPBOOK
+    END
+    POPUP "&Debug" /* block comment for popup */
+    BEGIN
+        MENUITEM "&PaintCore Info",             ID_DEBUG_PAINTCOREINFO
+    END
+END
+
+IDD_SCRIPT_DLG_DIALOG DIALOG 0, 0, 186, 117
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Macro DIalog" // caption comment
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_SCRIPT,7,7,172,83,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    DEFPUSHBUTTON   "&Run",ID_SCRIPT_RUN,15,96,50,14
+    PUSHBUTTON      "&Load",IDC_LOAD_MACRO,67,96,50,14 /* adasd ad */
+    PUSHBUTTON      "&Close",IDOK,119,96,50,14
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME_MINI      "SketchUp (beta)\n\nSketchUp (beta)\nSketchUp Model (*.skp)\n.skp\nSketchUp.Document\nSketchUp Model" // comment
+    ID_TOOLS_GE_SNAPSHOT    "Add a geo-location to the model, and gather site information nearby.\nAdd Location..."
+    ID_TOOLS_GE_SNAPSHOT_TOGGLE "Toggle terrain on and off.\nToggle Terrain"
+END

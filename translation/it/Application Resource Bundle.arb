@@ -1,0 +1,43 @@
+{
+    "@@locale": "en",
+    "title": "Application Resource Bundle Demo",
+    "@title": {
+        "context": "arb_editor"
+    },
+    "MSG_SOURCE_LOCALE": "Source Locale: ",
+    "@MSG_SOURCE_LOCALE": {
+        "context": "arb_editor"
+    },
+    "MSG_TARGET_LOCALE": "Target Locale: ",
+    "@MSG_TARGET_LOCALE": {
+        "context": "arb_editor"
+    },
+    "org_text": "Original Text Here",
+    "@org_text": {
+        "context": "arb_editor"
+    },
+    "lc_text": "Translated text here",
+    "@lc_text": {
+        "context": "arb_editor"
+    },
+    "download_btn": "Download",
+    "@download_btn": {
+        "context": "arb_editor"
+    },
+    "logo@src": "images/001.jpg",
+    "@logo@src": {
+        "context": "arb_editor",
+        "type": "image",
+        "description": "logo image, 128x128"
+    },
+    "input_test1@placeholder": "localized placeholder text",
+    "input_test2@value": "localized input value",
+    "key1": "{membersCount,plural, =1{{membersCount} member}other{{membersCount} members}}",
+    "@key1": {
+        "description": "key1 description",
+        "placeholders": {
+            "membersCount": {}
+        },
+        "type": "text"
+    }
+}

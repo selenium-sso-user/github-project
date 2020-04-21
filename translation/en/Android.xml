@@ -8,7 +8,7 @@
   <string name="delete_action" maxLength="10">Delete</string>
   <!-- ApplicationPreferencesActivity -->
   <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
-    <item quantity="one">1 message per conversation</item>
+    <item quantity="one">%d messages per conversation</item>
     <item quantity="other">%d messages per conversation</item>
   </plurals>
   <string name="unknown_recipient222"><![CDATA[<Unknown Recipient222>]]></string>

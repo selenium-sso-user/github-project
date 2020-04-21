@@ -1,0 +1,19 @@
+# Use the Source file to translate labels for the first time.
+
+# Language: Ukrainian
+Language code: uk
+Type: Bilingual
+
+
+------------------UNTRANSLATED-----------------
+
+# KEY	LABEL
+
+ButtonOrLink.Account.GoogleMaps	Google Maps
+ButtonOrLink.Account.GoogleNews	Google News
+ButtonOrLink.Account.GoogleSearch	Google Search
+ButtonOrLink.Campaign.ViewAllCampaignMembers	View All Campaign Members
+ButtonOrLink.Campaign.ViewCampaignInfluenceReport	View Campaign Influence Report
+ButtonOrLink.Contact.GoogleMaps	Google Maps
+ButtonOrLink.Contact.GoogleSearch	Google Search
+ButtonOrLink.Lead.GoogleMaps	Google Maps

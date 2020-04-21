@@ -1,0 +1,26 @@
+{
+   "ext_name": {
+      "message": "Translator for all languages"
+   },
+   "msg_Default": {
+      "message": "Default"
+   },
+   "msg_detectlang": {
+      "message": "Detect language"
+   },
+   "msg_gohome": {
+      "message": "Go Home."
+   },
+   "msg_reloadtrans": {
+      "message": "Reload Translator"
+   },
+   "msg_sellang": {
+      "message": "Select language"
+   },
+   "msg_source": {
+      "message": "Source"
+   },
+   "msg_target": {
+      "message": "Target"
+   }
+}

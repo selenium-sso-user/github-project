@@ -1,0 +1,6 @@
+<!ENTITY tablename     "Name of the Table:">
+<!ENTITY eximFileCharSet  "Character Encoding">
+<!ENTITY eximCsv_encloser.doublequotes.standard     "Double quotes (&quot;), if necessary (Standard)">
+<!ENTITY eximCsv_encloser.singlequotes              "Single quotes (')">
+<!ENTITY eximXml_root-element          "Name of Root Element:">
+<!ENTITY eximXml_prefix-table-element  "Prefix this to Table Element:">

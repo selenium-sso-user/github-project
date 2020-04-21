@@ -1,0 +1,130 @@
+{
+    "language": "ar",
+    "messages": [
+        {
+            "id": "Error",
+            "message": "Error",
+            "translation": "Error",
+            "comment": "This is context",
+            "fuzzy": true
+        },
+        {
+            "id": "Invalid IP address",
+            "message": "Invalid IP address",
+            "translation": "Invalid IP address",
+            "translatorComment": "Copied from source.",
+            "fuzzy": true
+        },
+        {
+            "id": "Invalid network prefix length",
+            "message": "Invalid network prefix length",
+            "translation": "Invalid network prefix length",
+            "fuzzy": true
+        },
+        {
+            "id": "Usage: {Args0} \n[{String}]",
+            "message": "Usage: {Args0} \n[{String}]",
+            "translation": "Usage: {Args0} \n[{String}]",
+            "translatorComment": "Copied from source.",
+            "placeholders": [
+                {
+                    "id": "Args0",
+                    "string": "%[1]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 1,
+                    "expr": "os.Args[0]"
+                },
+                {
+                    "id": "String",
+                    "string": "%[2]s",
+                    "type": "string",
+                    "underlyingType": "string",
+                    "argNum": 2,
+                    "expr": "builder.String()"
+                }
+            ],
+            "fuzzy": true
+        },
+        {
+            "id": "{Years} year(s)",
+            "message": "{Years} year(s)",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "Years",
+                    "cases": {
+                        "zero": {
+                            "msg": "{Years} years"
+                        },
+                        "one": {
+                            "msg": "{Years} year"
+                        },
+                        "two": {
+                            "msg": "{Years} years"
+                        },
+                        "few": {
+                            "msg": "{Years} years"
+                        },
+                        "many": {
+                            "msg": "{Years} years"
+                        },
+                        "other": {
+                            "msg": "{Years} years"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "Years",
+                    "string": "%[1]d",
+                    "type": "int64",
+                    "underlyingType": "int64",
+                    "argNum": 1,
+                    "expr": "years"
+                }
+            ]
+        },
+        {
+            "id": "{Hours} hour(s)",
+            "message": "{Hours} hour(s)",
+            "translation": {
+                "select": {
+                    "feature": "plural",
+                    "arg": "Hours",
+                    "cases": {
+                        "zero": {
+                            "msg": "{Hours} hours"
+                        },
+                        "one": {
+                            "msg": "{Hours} hour"
+                        },
+                        "two": {
+                            "msg": "{Hours} hours"
+                        },
+                        "few": {
+                            "msg": "{Hours} hours"
+                        },
+                        "many": {
+                            "msg": "{Hours} hours"
+                        },
+                        "other": {
+                            "msg": "{Hours} hours"
+                        }
+                    }
+                }
+            },
+            "placeholders": [
+                {
+                    "id": "Hours",
+                    "string": "%[1]d",
+                    "type": "int64",
+                    "underlyingType": "int64",
+                    "argNum": 1,
+                    "expr": "hours"
+                }
+            ]
+        }
+    ]
+}

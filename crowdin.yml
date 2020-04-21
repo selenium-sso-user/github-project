@@ -1,6 +1,5 @@
 files:
   - source: /
-    ignore_settings: 1
     ignore:
       - /source/test_file.txt
       - /source/coma.csv

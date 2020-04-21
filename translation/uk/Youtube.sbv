@@ -1,0 +1,37 @@
+0:00:03.700,0:00:06.190
+Hi and welcome back to the channel
+
+0:00:06.190,0:00:09.070
+This time I'm going
+to talk about built-in debugger
+
+0:00:09.070,0:00:11.309
+of perl
+
+0:00:11.309,0:00:14.089
+Normally if you have a script
+
+0:00:14.089,0:00:16.350
+Let's say in this case 'outline.pl'
+
+0:00:16.350,0:00:21.569
+You can run in this way in the command line
+perl name of the script and potential parameters
+
+0:00:21.569,0:00:23.960
+So let's see if I run this script
+
+0:00:23.960,0:00:25.599
+We can see that it provides some output
+
+0:00:25.599,0:00:29.849
+The way to debug it is to run
+perl -d
+
+0:00:29.849,0:00:33.120
+and the name of the script
+and then the parameters
+
+0:00:33.120,0:00:33.770
+Once
+

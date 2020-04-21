@@ -1,0 +1,12 @@
+#include "Online_Text.h"
+
+// Do NOT remove special characters !
+// E.g. : '\n' , '%u' , %0u, '%s' , ...
+
+STRINGTABLE
+{
+T_ONL_001,  "Online Check"
+T_ONL_002,  "Check Online"
+T_ONL_003,  "Every time this program is started"
+T_ONL_004,  "Once every day"
+}

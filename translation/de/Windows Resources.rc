@@ -1,0 +1,29 @@
+#include "..\SketchMenuResource.h"
+
+
+IDR_SKETCH_MENU MENU
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New",                ID_FILE_NEW
+        POPUP "Open Recent"
+        BEGIN
+            MENUITEM SEPARATOR
+            MENUITEM "Clear Recent",                ID_OPENRECENT_CLEARRECENT
+        END
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Undo",               ID_EDIT_UNDO
+        MENUITEM "Redo",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut",                ID_EDIT_CUT
+    END
+END
+
+
+STRINGTABLE
+BEGIN
+    ID_DEBUG_DUMP_MEMORY_USAGE "Dump Memory\nDump Memory"
+    GROUPBOX "Colour and kind of line",-1,6,51,280,39,WS_GROUP | BS_GROUPBOX
+END

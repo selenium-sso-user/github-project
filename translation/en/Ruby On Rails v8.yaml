@@ -1,4 +1,5 @@
-en:
+---
+sr-Cyrl:
   devise:
     confirmations:
       confirmed: 'Your account was successfully confirmed. “#tbt” and “#nofilter” You are now signed in.'
@@ -27,6 +28,7 @@ en:
       text_full: "Test1 Test2 Test3 "
     not_saved:
       one: "1 error prohibited this %{resource} from being saved:"
+      few: "%{count} errors prohibited this %{resource} from being saved:"
       other: "%{count} errors prohibited this %{resource} from being saved:"
     description:
       part_1_found: Найдено
@@ -34,4 +36,5 @@ en:
       part_3_trips_per_day_for_direction: "в\_день по\_направлению"
       part_4_direction: "%{startCity} — %{endCity}"
       one: "Найден <span>%{count} рейс</span> в\_день по\_направлению <span>%{startCity} — %{endCity}</span>"
+      few: "Найдено <span>%{count} рейсов</span> в\_день по\_направлению <span>%{startCity} — %{endCity}</span>"
       other: "Найдено <span>%{count} рейсов</span> в\_день по\_направлению <span>%{startCity} — %{endCity}</span>"

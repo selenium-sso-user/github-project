@@ -1,0 +1,10 @@
+ERROR_ADD_ITEMS#0="Cannot add menu items! ";
+ERROR_ADD_STORE#0="Cannot add appId to the RuntimeStore! ";
+FORWARD_HEADER_DATE#0="Date";
+FORWARD_HEADER_FROM#0="From";
+FORWARD_HEADER_ORIGINAL_MESSAGE#0="Original Message";
+FORWARD_HEADER_SUBJECT#0="Subject";
+FORWARD_MENU#0="Edit & forward";
+NOT_EMAIL#0="Object not recognized as an email";
+POPUP_DOWNLOADING#0="downloading...";
+Q_DOWNLOAD#0=" - download?";

@@ -1,4 +1,4 @@
-en:
+en-US:
   devise:
     confirmations:
       confirmed: 'Your account was successfully confirmed. “#tbt” and “#nofilter” You are now signed in.'
@@ -26,12 +26,10 @@ en:
       success: "Successfully authenticated from %{kind} account."
       text_full: "Test1 Test2 Test3 "
     not_saved:
-      one: "1 error prohibited this %{resource} from being saved:"
       other: "%{count} errors prohibited this %{resource} from being saved:"
     description:
       part_1_found: Найдено
       part_2_numberOfTrips: "%{numberOfTrips}"
       part_3_trips_per_day_for_direction: "в\_день по\_направлению"
       part_4_direction: "%{startCity} — %{endCity}"
-      one: "Найден <span>%{count} рейс</span> в\_день по\_направлению <span>%{startCity} — %{endCity}</span>"
       other: "Найдено <span>%{count} рейсов</span> в\_день по\_направлению <span>%{startCity} — %{endCity}</span>"

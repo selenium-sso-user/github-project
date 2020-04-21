@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Localizable.stringsdict.plist
+   ResourceApp
+
+   Created by Tom Lokhorst on 2016-04-24.
+   Copyright (c) 2016 Mathijs Kadijk. All rights reserved.
+-->
+<!-- Example from: https://www.objc.io/issues/9-strings/string-localization/ -->
+<plist version="1.0">
+  <dict>
+    <key>%d file(s) remaining</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@files@</string>
+      <key>files</key>
+      <dict>
+        <key>zero</key>
+        <string>%d files remaining</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d file remaining</string>
+        <key>two</key>
+        <string>%d files remaining</string>
+        <key>few</key>
+        <string>%d files remaining</string>
+        <key>many</key>
+        <string>%d files remaining</string>
+        <key>other</key>
+        <string>%d files remaining</string>
+      </dict>
+    </dict>
+    <key>%d member(s)</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@members@</string>
+      <key>members</key>
+      <dict>
+        <key>zero</key>
+        <string>%d members</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d member</string>
+        <key>two</key>
+        <string>%d members</string>
+        <key>few</key>
+        <string>%d members</string>
+        <key>many</key>
+        <string>%d members</string>
+        <key>other</key>
+        <string>%d members</string>
+      </dict>
+    </dict>
+    <key>phone</key>
+    <dict>
+      <key>NSStringVariableWidthRuleType</key>
+      <dict>
+        <key>1</key>
+        <string>Tel.</string>
+        <key>25</key>
+        <string>Telephone</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

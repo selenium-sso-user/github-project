@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+    <item quantity="one">1 message per conversation</item>
+    <item quantity="other">%d messages per conversation</item>
+  </plurals>
+</resources>

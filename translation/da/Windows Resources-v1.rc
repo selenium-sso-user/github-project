@@ -1,0 +1,16 @@
+#include "..\SketchMenuResource.h"
+
+
+STRINGTABLE 
+BEGIN
+
+    IDS_RULERGAUGE_EDITING_BODY "TODO - get real help body"
+    IDS_RULERGAUGE_NEW_BODY "TODO - get real help body"
+    IDS_EDIT_LABEL_DATA     "Edit Label Setup"
+    IDS_BUTTON_NARROW       "Narrow"
+    IDS_BUTTON_MEDIUM       "Medium"
+    IDS_BUTTON_WIDE         "Wide"
+    IDS_BUTTON_BACKGROUND   "Background"
+    IDS_BUTTON_OUTOFRANGE   "Out-Of-\r\nRange"
+    IDS_BUTTON_INRANGE      "In-Range"
+END

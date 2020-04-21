@@ -11,7 +11,7 @@ files:
     scheme: 'none,source_phrase,translation,context'
     translate_content: '0'
     translate_attributes: '0'
-    content_segmentation: '0'
+    content_segmentation: '1'
   - source: /source
     ignore:
       - /source/test_file.txt

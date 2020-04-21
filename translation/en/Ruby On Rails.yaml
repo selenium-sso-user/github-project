@@ -1,4 +1,5 @@
-en:
+---
+sr-Cyrl:
   devise:
     confirmations:
       confirmed: 'Your account was successfully confirmed. “#tbt” and “#nofilter” You are now signed in.'
@@ -30,6 +31,7 @@ en:
       text_full: "Test1 Test2 Test3 "
     not_saved:
       one: "1 error prohibited this %{resource} from being saved:"
+      few: "%{count} errors prohibited this %{resource} from being saved:"
       other: "%{count} errors prohibited this %{resource} from being saved:"
   cli_ln1: |
     ..   _____  _     _  _____  _______ _     _ _______ _______ _______

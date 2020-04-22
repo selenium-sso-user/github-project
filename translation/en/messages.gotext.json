@@ -55,7 +55,7 @@
                     "arg": "Years",
                     "cases": {
                         "one": {
-                            "msg": "{Years} years"
+                            "msg": "{Years} year"
                         },
                         "other": {
                             "msg": "{Years} years"
@@ -83,7 +83,7 @@
                     "arg": "Hours",
                     "cases": {
                         "one": {
-                            "msg": "{Hours} hours"
+                            "msg": "{Hours} hour"
                         },
                         "other": {
                             "msg": "{Hours} hours"

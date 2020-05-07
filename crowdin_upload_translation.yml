@@ -1,0 +1,3 @@
+files:
+  - source: /source/tr/Ukrainian2.xml
+    translation: /translation/%two_letters_code%/%original_file_name%

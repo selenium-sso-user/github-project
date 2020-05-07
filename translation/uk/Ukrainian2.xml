@@ -3,6 +3,6 @@
 <resources>
   <string name="header">Доступні нові картиmm</string>
   <string name="subtitle">Завантажте нові оффлайнові карти, щоб завжди користуватися найновішою інформацією під час подорожів з Sygicm.</string>
-  <string name="body">Мі рекомендуємо завантажувати карти через Wi-Fi</string>
+  <string name="body">Ми рекомендуємо завантажувати карти через Wi-Fi</string>
   <string name="bigbutton">Завантажити карти зараз</string>
 </resources>

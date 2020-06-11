@@ -3,7 +3,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- This should make it easier for forks to change the branding -->
   <!-- Used in AndroidManifest.xml -->
-  <string name="cancel_action" maxLength="5">Cancel</string>
+  <string name="cancel_action" maxLength="5">Exit</string>
   <string name="send_action" maxLength="4">Send</string>
   <string name="delete_action" maxLength="10">Delete</string>
   <!-- ApplicationPreferencesActivity -->
@@ -16,8 +16,8 @@
   <string name="unknown_recipient"><![CDATA[<![CDATA[<Unknown Recipient>]]]]><![CDATA[>]]></string>
   <string name="unknown_recipient2">Text <![CDATA[<Unknown Recipient>]]></string>
   <string name="import_export_action">Settings Import &amp; Export</string>
-  <string name="multiline_with_quotes">"\"\"This string
-    is multiline\"\""</string>
+  <string name="multiline_with_quotes">"\"\"\"\"\"\"\"This string
+    is multiline\"\"\"\"\"\"\""</string>
   <dimen name="textview_height">25dp</dimen>
   <dimen name="font_size">16sp</dimen>
   <string-array name="planets_array">

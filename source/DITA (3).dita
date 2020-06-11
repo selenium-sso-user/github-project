@@ -2,10 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Calculated_Columns">
     <title><ph conref="../../business/conref_source_labels.dita#crl/t_t_calculatedcolumn"/></title>
-    <shortdesc>Contains one row for each calculated column6666666.</shortdesc>
+    <shortdesc>Contains one row for each calculated column.</shortdesc>
     <conbody>
         <section>
-        <p>Calculated columns come in addition to model columns, and do not require any programming or database upgrades. Calculated columns exists only in memory, not in the database. A calculated column is defined by a formula, that typically refers to model columns.</p>
+        <p>5555555555555Calculated columns come in addition to model columns, and do not require any programming or database upgrades. Calculated columns exists only in memory, not in the database. A calculated column is defined by a formula, that typically refers to model columns.</p>
         <p>When you save changes to an existing calculated column, the changes will take effect immediately. If you add a new calculated column, the changes will be effective next time the program is started. Other users must also restart the program to see the changes.</p>
         <p>Calculated columns that are not visible in a table page element, will appear together with the model columns in the dialog box for the <uicontrol
                 conref="../conref_source_commands.dita#crcmd/gc_submenuchoice_unhidecolumn"/> command (in the <uicontrol

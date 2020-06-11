@@ -6,7 +6,7 @@
 "Language" = "en";
 
 // General / Button text for cancel.
-"CANCEL" = "CANCEL";
+"CANCEL" = "Exit";
 
 /* Boxcar email address field label */
 "Email Address:" = "Email Address:";

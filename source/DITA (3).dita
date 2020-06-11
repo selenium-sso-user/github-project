@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Calculated_Columns">
     <title><ph conref="../../business/conref_source_labels.dita#crl/t_t_calculatedcolumn"/></title>
-    <shortdesc>Contains one row for each calculated column999999999999999999999999.</shortdesc>
+    <shortdesc>Contains one row for each calculated column55555.</shortdesc>
     <conbody>
         <section>
         <p>Calculated columns come in addition to model columns, and do not require any programming or database upgrades. Calculated columns exists only in memory, not in the database. A calculated column is defined by a formula, that typically refers to model columns.</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="simple">Використовувати стискання даних у мережі</string>
+  <string name="icu_forrmated_argument">Я маю {numCats, number} коти.</string>
+  <string name="icu_plural">{noteCount, plural, one {} few {# нотатки недозволені} many {# нотатки недозволені} =1 {Примітка неархівована}other {# нотатки недозволені}}</string>
+  <string name="placeholder1">рядок</string>
+  <string name="placeholder1">string %s</string>
+</resources>

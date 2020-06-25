@@ -1,1 +1,3 @@
-files: []
+files:
+  - source: /README.md
+    translation: translation/%original_file_name%

@@ -1,10 +1,10 @@
 # github-project
 
----## Play Framework - The High Velocity Web Framework
+---## Грати фреймворк - висока швидкість веб-фреймворку
 
-The Play Framework combines productivity and performance making it easy to build scalable web applications with Java and Scala.  Play is developer friendly with a "just hit refresh" workflow and built-in testing support.
+Play Framework поєднує в собі продуктивність та продуктивність, завдяки якій можна будувати масштабовані веб-додатки з Java і Scala.  Грати - розробник зручний, після якого ви використовуєте робочий процес та вбудовану підтримку тестів.
 
-### Learn More
+### Дізнатися більше
 
 - [Download](http://www.playframework.com/download)
 - [Install](http://www.playframework.com/documentation/latest/Installing)

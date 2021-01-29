@@ -1,0 +1,249 @@
+{
+    "name": "Translation-cost-fuzzy-filter-by-project-owner-619515f0 Translation Costs Report",
+    "url": "http://translation-cost-fuzzy-filter-by-project-owner-619515f0.myhalchuk.dev.crowdin.com/u/",
+    "unit": "words",
+    "dateRange": {
+        "from": "2021-01-11",
+        "to": "2021-01-11"
+    },
+    "currency": "USD",
+    "mode": "fuzzy",
+    "totalCosts": 36.72,
+    "tmSavings": 13.68,
+    "data": [
+        {
+            "user": {
+                "id": 3,
+                "username": "proofreader",
+                "fullName": "Proofreader Default (proofreader)",
+                "avatarUrl": "https://dev-crowdin-static.s3.eu-central-1.amazonaws.com/avatar/3/medium/20d6b3526f39dee8316ebda56de4437e_default.png",
+                "totalCosts": 19.8,
+                "tmSavings": 1.8
+            },
+            "languages": [
+                {
+                    "language": {
+                        "id": "it",
+                        "name": "Italian",
+                        "totalCosts": 7.2,
+                        "tmSavings": 1.8
+                    },
+                    "translated": {
+                        "noMatch": {
+                            "value": 0,
+                            "ratePerWord": 0.2,
+                            "price": 0
+                        },
+                        "perfectMatch": {
+                            "value": 0,
+                            "ratePerWord": 0.15,
+                            "price": 0
+                        },
+                        "100": {
+                            "value": 0,
+                            "ratePerWord": 0.13,
+                            "price": 0
+                        },
+                        "99-95": {
+                            "value": 18,
+                            "ratePerWord": 0.1,
+                            "price": 1.8
+                        },
+                        "94-90": {
+                            "value": 0,
+                            "ratePerWord": 0.05,
+                            "price": 0
+                        },
+                        "89-80": {
+                            "value": 0,
+                            "ratePerWord": 0.03,
+                            "price": 0
+                        },
+                        "inTargetLanguage": {
+                            "value": 15
+                        },
+                        "byMtEngine": {
+                            "value": 0
+                        },
+                        "total": {
+                            "value": 18,
+                            "price": 1.8
+                        }
+                    },
+                    "approved": {
+                        "value": 54,
+                        "ratePerWord": 0.1,
+                        "price": 5.4
+                    }
+                },
+                {
+                    "language": {
+                        "id": "uk",
+                        "name": "Ukrainian",
+                        "totalCosts": 12.6,
+                        "tmSavings": 0
+                    },
+                    "translated": {
+                        "noMatch": {
+                            "value": 24,
+                            "ratePerWord": 0.2,
+                            "price": 4.8
+                        },
+                        "perfectMatch": {
+                            "value": 0,
+                            "ratePerWord": 0.15,
+                            "price": 0
+                        },
+                        "100": {
+                            "value": 0,
+                            "ratePerWord": 0.13,
+                            "price": 0
+                        },
+                        "99-95": {
+                            "value": 0,
+                            "ratePerWord": 0.1,
+                            "price": 0
+                        },
+                        "94-90": {
+                            "value": 0,
+                            "ratePerWord": 0.05,
+                            "price": 0
+                        },
+                        "89-80": {
+                            "value": 0,
+                            "ratePerWord": 0.03,
+                            "price": 0
+                        },
+                        "inTargetLanguage": {
+                            "value": 21
+                        },
+                        "byMtEngine": {
+                            "value": 0
+                        },
+                        "total": {
+                            "value": 24,
+                            "price": 4.8
+                        }
+                    },
+                    "approved": {
+                        "value": 78,
+                        "ratePerWord": 0.1,
+                        "price": 7.8
+                    }
+                }
+            ]
+        },
+        {
+            "user": {
+                "id": 2,
+                "username": "translator",
+                "fullName": "Translator Default (translator)",
+                "avatarUrl": "https://dev-crowdin-static.s3.eu-central-1.amazonaws.com/avatar/2/medium/104afedcf6aed47fa073600e9dbd1943_default.png",
+                "totalCosts": 16.92,
+                "tmSavings": 11.88
+            },
+            "languages": [
+                {
+                    "language": {
+                        "id": "it",
+                        "name": "Italian",
+                        "totalCosts": 5.04,
+                        "tmSavings": 2.16
+                    },
+                    "translated": {
+                        "noMatch": {
+                            "value": 0,
+                            "ratePerWord": 0.2,
+                            "price": 0
+                        },
+                        "perfectMatch": {
+                            "value": 18,
+                            "ratePerWord": 0.15,
+                            "price": 2.7
+                        },
+                        "100": {
+                            "value": 18,
+                            "ratePerWord": 0.13,
+                            "price": 2.34
+                        },
+                        "99-95": {
+                            "value": 0,
+                            "ratePerWord": 0.1,
+                            "price": 0
+                        },
+                        "94-90": {
+                            "value": 0,
+                            "ratePerWord": 0.05,
+                            "price": 0
+                        },
+                        "89-80": {
+                            "value": 0,
+                            "ratePerWord": 0.03,
+                            "price": 0
+                        },
+                        "inTargetLanguage": {
+                            "value": 30
+                        },
+                        "byMtEngine": {
+                            "value": 0
+                        },
+                        "total": {
+                            "value": 36,
+                            "price": 5.04
+                        }
+                    }
+                },
+                {
+                    "language": {
+                        "id": "uk",
+                        "name": "Ukrainian",
+                        "totalCosts": 11.88,
+                        "tmSavings": 9.72
+                    },
+                    "translated": {
+                        "noMatch": {
+                            "value": 18,
+                            "ratePerWord": 0.2,
+                            "price": 3.6
+                        },
+                        "perfectMatch": {
+                            "value": 18,
+                            "ratePerWord": 0.15,
+                            "price": 2.7
+                        },
+                        "100": {
+                            "value": 18,
+                            "ratePerWord": 0.13,
+                            "price": 2.34
+                        },
+                        "99-95": {
+                            "value": 18,
+                            "ratePerWord": 0.1,
+                            "price": 1.8
+                        },
+                        "94-90": {
+                            "value": 18,
+                            "ratePerWord": 0.05,
+                            "price": 0.9
+                        },
+                        "89-80": {
+                            "value": 18,
+                            "ratePerWord": 0.03,
+                            "price": 0.54
+                        },
+                        "inTargetLanguage": {
+                            "value": 108
+                        },
+                        "byMtEngine": {
+                            "value": 0
+                        },
+                        "total": {
+                            "value": 108,
+                            "price": 11.88
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

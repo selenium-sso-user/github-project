@@ -5,7 +5,6 @@
   <string name="subtitle">Завантажте нові оффлайнові карти, щоб завжди користуватися найновішою інформацією під час подорожів з Sygic.</string>
   <string name="body">Ми рекомендуємо завантажувати карти через Wi-Fi</string>
   <string name="bigbutton">Завантажити карти зараз</string>
-  <string name="close">Пізніше</string>
   <string name="sdl.error.incompatible">Sygic несумісний із підключеним пристроєм. Необхідний сенсорний екран і можливіть програвати відео.</string>
   <string name="sdl.error.connection">Помилка при підключенні до автомобілю.</string>
   <string name="fuel_header">Ціни на пальне для всіх</string>

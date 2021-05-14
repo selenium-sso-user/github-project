@@ -8,7 +8,7 @@ files:
       two_letters_code:
         it: Italian
     first_line_contains_header: '1'
-    scheme: 
+    scheme: 'none,source_phrase,translation,context'
     translate_content: '0'
     translate_attributes: '0'
     content_segmentation: '0'

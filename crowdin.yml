@@ -3,7 +3,7 @@ files:
     ignore:
       - /source/test_file.txt
       - /source/coma.csv
-    translation: /translation/%two_letters_code%/%original_file_name%()*<>-*#$$$
+    translation: /translation/%two_letters_code%/<
     languages_mapping:
       two_letters_code:
         it: Italian

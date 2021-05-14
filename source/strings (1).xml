@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="simple">Use compression on network</string>
-  <string name="icu_forrmated_argument">I have {numCats, number} cats.</string>
-  <string name="icu_plural">{noteCount, plural, =1 {Note unarchived}other {# notes unarchived}}</string>
-  <string name="placeholder1">string %d</string>
-  <string name="placeholder1">string %s</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home">Home</string>
+    <string name="menu_refresh"><a id="test">Refresh</a> page</string>
+    <string name="help">Help</string>
+    <string name="menu_clear">Clear Input</string>
+    <string name="camera">Camera</string>
 </resources>

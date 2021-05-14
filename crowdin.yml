@@ -1,15 +1,12 @@
 base_path: /source
 files:
-  - source:
+  - source: /
     ignore:
       - /test_file.txt
       - /coma.csv
     translation: /translation/%two_letters_code%/%original_file_name%
-    languages_mapping:
-      two_letters_code:
-        it: Italian
-    first_line_contains_header: '1'
+    first_line_contains_header: 1
     scheme: 'none,source_phrase,translation,context'
-    translate_content: '0'
-    translate_attributes: '0'
-    content_segmentation: '0'
+    translate_content: 0
+    translate_attributes: 0
+    content_segmentation: 0

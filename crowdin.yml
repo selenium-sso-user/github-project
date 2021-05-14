@@ -4,7 +4,7 @@ files:
     ignore:
       - /test_file.txt
       - /coma.csv
-    translation: translation/
+    translation: translation/<
     first_line_contains_header: 1
     scheme: 'none,source_phrase,translation,context'
     translate_content: 0

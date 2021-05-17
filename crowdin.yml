@@ -1,10 +1,13 @@
 base_path: /source
+preserve_hierarchy: true
+commit_message: "test commit"
+append_commit_message: false
 files:
   - source: /
     ignore:
       - /test_file.txt
       - /coma.csv
-    translation: /translation/%two_letters_code7%/<
+    translation: /translation/%two_letters_code%/<
     first_line_contains_header: 1
     scheme: 'none,source_phrase,translation,context'
     translate_content: 0

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: upload-translations-for-file-without-string-identifier-cest-8e6c8691\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2015-12-28 08:26+0900\n"
-"PO-Revision-Date: 2021-05-26 11:52\n"
+"PO-Revision-Date: 2021-05-26 11:53\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -15,59 +15,62 @@ msgstr ""
 "X-Crowdin-Project: upload-translations-for-file-without-string-identifier-cest-8e6c8691\n"
 "X-Crowdin-Project-ID: 433943\n"
 "X-Crowdin-Language: uk\n"
-"X-Crowdin-File: /config_dest_branch/source/GNU GetText.po\n"
-"X-Crowdin-File-ID: 6\n"
+"X-Crowdin-File: /config_dest_branch/translation/uk/GNU GetText.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: gnulib-lib/closeout.c:66
 msgid "write error"
-msgstr ""
+msgstr "помилка запису"
 
 #: gnulib-lib/closeout.c:66
+#| msgid "write error2"
 msgid "write error2"
 msgstr ""
 
 #: gnulib-lib/error.c:191
+#| msgid "Unknown "
+#| "system error"
 msgid "Unknown system error"
 msgstr ""
 
 #: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr ""
+msgstr "%s: параметр «%s» не є однозначним. Можливі варіанти:"
 
 #: gnulib-lib/getopt.c:619
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr ""
+msgstr "%s: параметр «%s» не є однозначним\n"
 
 #: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr ""
+msgstr "%s: додавання аргументів до параметра «--%s» не передбачено\n"
 
 #: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr ""
+msgstr "%s: додавання аргументів до параметра «%c%s» не передбачено\n"
 
 #: gnulib-lib/closeout.c:66
 msgid "\\ write error3"
-msgstr ""
+msgstr "\\ write помилка3"
 
 #: gnulib-lib/closeout.c:66
 msgid "\\ write \\ error4"
-msgstr ""
+msgstr "\\ write \\ помилка4"
 
 #: gnulib-lib/closeout.c:66
 msgid "write error5 \\"
-msgstr ""
+msgstr "write помилка5 \\"
 
 #: src/files.c:974
 #, c-format
 msgid "Read %lu line"
 msgid_plural "Read %lu lines"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Прочитано %lu рядок"
+msgstr[1] "Прочитано %lu рядки"
+msgstr[2] "Прочитано %lu рядків"
+msgstr[3] "Прочитано %lu рядків"
 

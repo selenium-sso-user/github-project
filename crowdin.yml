@@ -1,7 +1,7 @@
 preserve_hierarchy: true
 files:
   - source: /source/*.pot
-    dest: '%file_name%.pot'
+    dest: 'teas.pot'
     type: gettext4
     translation: /translation/%two_letters_code%/%original_file_name%
 

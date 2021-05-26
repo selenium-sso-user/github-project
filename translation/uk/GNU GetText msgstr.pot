@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: upload-translations-for-file-without-string-identifier-cest-8e6c8691\n"
+"Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
+"POT-Creation-Date: 2015-12-28 08:26+0900\n"
+"PO-Revision-Date: 2021-05-26 11:52\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: Project-Id-Version\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: upload-translations-for-file-without-string-identifier-cest-8e6c8691\n"
+"X-Crowdin-Project-ID: 433943\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /config_dest_branch/source/GNU GetText msgstr.po\n"
+"X-Crowdin-File-ID: 5\n"
+
+#: gnulib-lib/closeout.c:66
+msgid "write error"
+msgstr "write error"
+
+#: gnulib-lib/closeout.c:66
+msgid "write error2"
+msgstr "write error2"
+
+#: gnulib-lib/error.c:191
+msgid "Unknown system error"
+msgstr "Unknown "
+
+#: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
+#, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: option '%s' is ambiguous; possibilities:"
+
+#: gnulib-lib/getopt.c:619
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr "%s: option '%s' is ambiguous\n"
+
+#: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: option '--%s' doesn't allow an argument\n"
+
+#: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: option '%c%s' doesn't allow an argument\n"
+
+# Key:	DF2FE4AF4901B247DD091086CF8B577A
+msgid "0"
+msgstr "0"
+

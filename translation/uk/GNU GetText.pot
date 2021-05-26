@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: git-hub-integration-config-with-dest-params-5d28ef97-git-hub-integration-config-with-dest-params-0657dc17\n"
+"Project-Id-Version: content-delivery-test\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2015-12-28 08:26+0900\n"
-"PO-Revision-Date: 2021-05-26 12:25\n"
+"PO-Revision-Date: 2021-05-26 12:35\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Domain: Project-Id-Version\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: git-hub-integration-config-with-dest-params-5d28ef97-git-hub-integration-config-with-dest-params-0657dc17\n"
-"X-Crowdin-Project-ID: 433982\n"
+"X-Crowdin-Project: content-delivery-test\n"
+"X-Crowdin-Project-ID: 362895\n"
 "X-Crowdin-Language: uk\n"
-"X-Crowdin-File: /config_dest_branch/GNU GetText.pot\n"
-"X-Crowdin-File-ID: 3\n"
+"X-Crowdin-File: /[selenium-sso-user.github-project] config_dest_branch/source/GNU GetText.po\n"
+"X-Crowdin-File-ID: 3680\n"
 
 #: gnulib-lib/closeout.c:66
 msgid "write error"
-msgstr "помилка запису"
+msgstr ""
 
 #: gnulib-lib/closeout.c:66
 msgid "write error2"
@@ -33,41 +33,41 @@ msgstr ""
 #: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: параметр «%s» не є однозначним. Можливі варіанти:"
+msgstr ""
 
 #: gnulib-lib/getopt.c:619
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: параметр «%s» не є однозначним\n"
+msgstr ""
 
 #: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «--%s» не передбачено\n"
+msgstr ""
 
 #: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «%c%s» не передбачено\n"
+msgstr ""
 
 #: gnulib-lib/closeout.c:66
 msgid "\\ write error3"
-msgstr "\\ write помилка3"
+msgstr ""
 
 #: gnulib-lib/closeout.c:66
 msgid "\\ write \\ error4"
-msgstr "\\ write \\ помилка4"
+msgstr ""
 
 #: gnulib-lib/closeout.c:66
 msgid "write error5 \\"
-msgstr "write помилка5 \\"
+msgstr ""
 
 #: src/files.c:974
 #, c-format
 msgid "Read %lu line"
 msgid_plural "Read %lu lines"
-msgstr[0] "Прочитано %lu рядок"
-msgstr[1] "Прочитано %lu рядки"
-msgstr[2] "Прочитано %lu рядків"
-msgstr[3] "Прочитано %lu рядків"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 

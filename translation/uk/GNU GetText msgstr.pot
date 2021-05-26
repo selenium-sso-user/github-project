@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNU gettext-runtime package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GNU gettext-runtime 0.19.7\n"
+"Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
+"POT-Creation-Date: 2015-12-28 08:26+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: Project-Id-Version\n"
+"X-Crowdin-SourceKey: msgstr\n"
+
+#: gnulib-lib/closeout.c:66
+msgid "write error"
+msgstr "помилка запису"
+
+#: gnulib-lib/closeout.c:66
+msgid "write error2"
+msgstr "помилка запису2"
+
+#: gnulib-lib/error.c:191
+msgid "Unknown "
+"system error"
+msgstr "Невідома системна помилк"
+
+#: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
+#, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: параметр «%s» не є однозначним. Можливі варіанти:"
+
+#: gnulib-lib/getopt.c:619
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr "%s: параметр «%s» не є однозначним\n"
+
+#: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: додавання аргументів до параметра «--%s» не передбачено\n"
+
+#: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: додавання аргументів до параметра «%c%s» не передбачено\n"
+
+# Key:	DF2FE4AF4901B247DD091086CF8B577A
+msgid "0"
+msgstr "нуль"

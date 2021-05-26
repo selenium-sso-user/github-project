@@ -5,53 +5,67 @@ msgstr ""
 "POT-Creation-Date: 2015-12-28 08:26+0900\n"
 "PO-Revision-Date: 2021-05-26 15:20\n"
 "Last-Translator: \n"
-"Language-Team: Ukrainian\n"
-"Language: uk_UA\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Domain: Project-Id-Version\n"
-"X-Crowdin-SourceKey: msgstr\n"
-"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: 565db24c154363009b78567cd08cadc8\n"
 "X-Crowdin-Project-ID: 1\n"
-"X-Crowdin-Language: uk\n"
-"X-Crowdin-File: /config_dest_branch/GNU GetText msgstr.pot\n"
-"X-Crowdin-File-ID: 13\n"
+"X-Crowdin-Language: it\n"
+"X-Crowdin-File: /config_dest_branch/GNU GetText.pot\n"
+"X-Crowdin-File-ID: 14\n"
 
 #: gnulib-lib/closeout.c:66
 msgid "write error"
-msgstr "помилка запису"
+msgstr ""
 
 #: gnulib-lib/closeout.c:66
 msgid "write error2"
-msgstr "помилка запису2"
+msgstr ""
 
 #: gnulib-lib/error.c:191
 msgid "Unknown system error"
-msgstr "Невідома системна помилк"
+msgstr ""
 
 #: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: параметр «%s» не є однозначним. Можливі варіанти:"
+msgstr ""
 
 #: gnulib-lib/getopt.c:619
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: параметр «%s» не є однозначним\n"
+msgstr ""
 
 #: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «--%s» не передбачено\n"
+msgstr ""
 
 #: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «%c%s» не передбачено\n"
+msgstr ""
 
-# Key:	DF2FE4AF4901B247DD091086CF8B577A
-msgid "0"
-msgstr "нуль"
+#: gnulib-lib/closeout.c:66
+msgid "\\ write error3"
+msgstr ""
+
+#: gnulib-lib/closeout.c:66
+msgid "\\ write \\ error4"
+msgstr ""
+
+#: gnulib-lib/closeout.c:66
+msgid "write error5 \\"
+msgstr ""
+
+#: src/files.c:974
+#, c-format
+msgid "Read %lu line"
+msgid_plural "Read %lu lines"
+msgstr[0] ""
+msgstr[1] ""
 

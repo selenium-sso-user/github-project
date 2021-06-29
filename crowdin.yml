@@ -1,3 +1,5 @@
+pull_request_title: 'new test'
+pull_request_labels: ['test', 'labej']
 files:
   - source: /source
     ignore:

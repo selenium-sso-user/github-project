@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+  <item id="2">
+    <second_person_male_text><![CDATA[At lunch I usually sit and talk with other people, and I belong to several clubs – because I like the social interaction.]]></second_person_male_text>
+    <second_person_female_text><![CDATA[]]></second_person_female_text>
+    <third_person_male_text><![CDATA[O que são inteligências múltiplas?
+<p class="zero">Intelligence is the potential to solve problems and to create ideas and things that are valued in the current culture. A person's intelligence can vary over different areas such as science.</p>]]></third_person_male_text>
+    <third_person_female_text><![CDATA[<h3>What are Multiple Intelligences?</h3>
+<p class="zero">Intelligence is the potential to solve problems and to create ideas and things that are valued in the current culture.</p>]]></third_person_female_text>
+  </item>
+  <item id="3">
+    <second_person_male_text><![CDATA[<h3>Your Profile</h3>
+<p class="zero">The intelligence profile shown below is based on how you answered the survey questions.</p>]]></second_person_male_text>
+    <second_person_female_text><![CDATA[]]></second_person_female_text>
+  </item>
+  <item id="4">
+    <second_person_male_text><![CDATA[<h3>Traits from Your Top Ranked Intelligences:</h3>]]></second_person_male_text>
+    <second_person_female_text><![CDATA[]]></second_person_female_text>
+    <third_person_male_text><![CDATA[<h3>Traits from ${firstName}s Top Ranked Intelligences</h3>]]></third_person_male_text>
+    <third_person_female_text><![CDATA[<h3>Traits from ${firstName}s Top Ranked Intelligences</h3>]]></third_person_female_text>
+  </item>
+</content>

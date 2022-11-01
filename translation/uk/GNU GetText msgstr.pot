@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: git-hub-integration-config-with-dest-params-test-e4a8ac35-git-hub-integration-config-with-dest-params-test-bea790d1\n"
+"Project-Id-Version: git-hub-integration-config-with-dest-params-test-7e3cc109-git-hub-integration-config-with-dest-params-test-505753a1\n"
 "Report-Msgid-Bugs-To: bug-gnu-gettext@gnu.org\n"
 "POT-Creation-Date: 2015-12-28 08:26+0900\n"
-"PO-Revision-Date: 2022-10-31 21:18\n"
+"PO-Revision-Date: 2022-11-01 09:37\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -13,8 +13,8 @@ msgstr ""
 "X-Domain: Project-Id-Version\n"
 "X-Crowdin-SourceKey: msgstr\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: git-hub-integration-config-with-dest-params-test-e4a8ac35-git-hub-integration-config-with-dest-params-test-bea790d1\n"
-"X-Crowdin-Project-ID: 12538257\n"
+"X-Crowdin-Project: git-hub-integration-config-with-dest-params-test-7e3cc109-git-hub-integration-config-with-dest-params-test-505753a1\n"
+"X-Crowdin-Project-ID: 566620\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /config_dest_branch/GNU GetText msgstr.pot\n"
 "X-Crowdin-File-ID: 2\n"
@@ -25,33 +25,33 @@ msgstr "помилка запису"
 
 #: gnulib-lib/closeout.c:66
 msgid "write error2"
-msgstr "помилка запису2"
+msgstr "write error2"
 
 #: gnulib-lib/error.c:191
 msgid "Unknown system error"
-msgstr "Невідома системна помилк"
+msgstr "Unknown "
 
 #: gnulib-lib/getopt.c:575 gnulib-lib/getopt.c:604
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: параметр «%s» не є однозначним. Можливі варіанти:"
+msgstr "%s: option '%s' is ambiguous; possibilities:"
 
 #: gnulib-lib/getopt.c:619
 #, c-format
 msgid "%s: option '%s' is ambiguous\n"
-msgstr "%s: параметр «%s» не є однозначним\n"
+msgstr "%s: option '%s' is ambiguous\n"
 
 #: gnulib-lib/getopt.c:654 gnulib-lib/getopt.c:658
 #, c-format
 msgid "%s: option '--%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «--%s» не передбачено\n"
+msgstr "%s: option '--%s' doesn't allow an argument\n"
 
 #: gnulib-lib/getopt.c:667 gnulib-lib/getopt.c:672
 #, c-format
 msgid "%s: option '%c%s' doesn't allow an argument\n"
-msgstr "%s: додавання аргументів до параметра «%c%s» не передбачено\n"
+msgstr "%s: option '%c%s' doesn't allow an argument\n"
 
 # Key:	DF2FE4AF4901B247DD091086CF8B577A
 msgid "0"
-msgstr "нуль"
+msgstr "0"
 

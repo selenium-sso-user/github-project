@@ -6,11 +6,11 @@
   <string name="body">Мі рекомендуємо завантажувати карти через Wi-Fim</string>
   <string name="bigbutton">Завантажити карти заразm</string>
   <string name="close">Пізніше</string>
-  <string name="sdl.error.incompatible">Sygic несумісний із підключеним пристроєм. Необхідний сенсорний екран і можливіть програвати відео.</string>
+  <string name="sdl.error.incompatible"></string>
   <string name="sdl.error.connection">Помилка при підключенні до автомобілю.</string>
   <string name="fuel_header">Ціни на пальне для всіх</string>
-  <string name="fuel_body">Нова функція перегляду цін на пальне тепер доступна безкоштовно й назавжди! Лише підключіться до Інтернету, щоб дізнатися найкращі ціни у вашому регіоні.</string>
-  <string name="fuel_rating">Подобається подарунок? Будь ласка, оцініть нас на 5* зірок на Google Play.</string>
+  <string name="fuel_body"></string>
+  <string name="fuel_rating"></string>
   <string name="button">Оцінити зараз</string>
-  <string name="fuel_settings">Виберіть ваш тип палива. Ціни будуть вказані у вікні Об\'єкти на маршруті (за наявності Інтернет-підключення).</string>
+  <string name="fuel_settings"></string>
 </resources>

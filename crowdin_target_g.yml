@@ -33,6 +33,7 @@ targets:
       - '*/*roid_r'
     ignore:
       - /root/*
+      - *Placeholders
     file: /bundle/%language%.xml
     format: android
     labels:
@@ -42,8 +43,14 @@ targets:
       - '*'
     ignore:
       - '*/folder'
+      - '*Placeholders'
     file: /bundle/%language%.strings
     format: macosx
     labels:
       - 'Bundle Label #1'
       - 'Bundle Label #2'
+  - name: Integraton Bundle Macosx With Convert Unify Placeholders
+    sources:
+      - '*Placeholders'
+    file: /bundle/%language%_withUnifyPlaceholders.strings
+    format: macosx

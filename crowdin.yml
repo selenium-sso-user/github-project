@@ -28,3 +28,4 @@ files:
     content_segmentation: '0'
 bundles:
   - 1
+  - 2

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string-array name="planets_array">
-    <item>Venus</item>
+    <item>Mercury</item>
+    <item>Венера</item>
+    <item>Earth</item>
     <item>Mars</item>
-    <item>Venus root folder</item>
-    <item>Mars root folder</item>
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Earth</item>
+    <item>Mars</item>
   </string-array>
+  <string name="duplicate_string">Венера2</string>
 </resources>

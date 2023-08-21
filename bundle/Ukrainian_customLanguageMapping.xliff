@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="5" original="/root/folder/androidWithPlaceholders.xml" source-language="en" target-language="uk" datatype="plaintext" project-id="668876" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="9" resname="str_01">
+        <source>Conversions: [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%i] [%i] [%i] [%i] [%f] [%f] [%f] [%f] [%f] [%f] [%f] [%] [%s]</source>
+        <target state="needs-translation">Conversions: [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%i] [%i] [%i] [%i] [%f] [%f] [%f] [%f] [%f] [%f] [%f] [%] [%s]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_01</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10" resname="str_02">
+        <source>Flags Integral: [%i] [%i] [%i] %  d [%i] [%i] [%i]</source>
+        <target state="needs-translation">Flags Integral: [%i] [%i] [%i] %  d [%i] [%i] [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_02</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="11" resname="str_03">
+        <source>Flags Floating Point: [%f] [%f] [%f] %  f [%f] [%f] [%f]</source>
+        <target state="needs-translation">Flags Floating Point: [%f] [%f] [%f] %  f [%f] [%f] [%f]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_03</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12" resname="str_04">
+        <source>Formatting times: [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%i] [%s] [%s] [%s]</source>
+        <target state="needs-translation">Formatting times: [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%s] [%i] [%s] [%s] [%s]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_04</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="13" resname="str_05">
+        <source>Formatting dates: [%s] [%s] [%s] [%f] [%f] [%s] [%s] [%s] [%s] [%s] [%i] [%i] [%f]</source>
+        <target state="needs-translation">Formatting dates: [%s] [%s] [%s] [%f] [%f] [%s] [%s] [%s] [%s] [%s] [%i] [%i] [%f]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_05</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14" resname="str_06">
+        <source>Formatting common date/time compositions: [%s] [%s] [%s] [%s] [%s] [%s]</source>
+        <target state="needs-translation">Formatting common date/time compositions: [%s] [%s] [%s] [%s] [%s] [%s]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_06</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="15" resname="str_07">
+        <source>Time formatted for the 24-hour clock as &quot;[%s]:[%s]:[%s]&quot;.</source>
+        <target state="needs-translation">Time formatted for the 24-hour clock as &quot;[%s]:[%s]:[%s]&quot;.</target>
+        <context-group purpose="information">
+          <context context-type="source">str_07</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16" resname="str_08">
+        <source>Date formatted as &quot;[%s]/[%i]/[%s]&quot;.</source>
+        <target state="needs-translation">Date formatted as &quot;[%s]/[%i]/[%s]&quot;.</target>
+        <context-group purpose="information">
+          <context context-type="source">str_08</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="17" resname="str_09">
+        <source>ISO 8601 complete date formatted as &quot;[%s]-[%s]-[%i]&quot;.</source>
+        <target state="needs-translation">ISO 8601 complete date formatted as &quot;[%s]-[%s]-[%i]&quot;.</target>
+        <context-group purpose="information">
+          <context context-type="source">str_09</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18" resname="str_10">
+        <source>Explicit indexing: [%4$s] [%3$s] [%2$s] [%1$s] [%4$s] [%3$s] [%2$s] [%1$s]</source>
+        <target state="needs-translation">Explicit indexing: [%4$s] [%3$s] [%2$s] [%1$s] [%4$s] [%3$s] [%2$s] [%1$s]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19" resname="str_11">
+        <source>Ordinary indexing: [%s] [%s] [%s] [%s]</source>
+        <target state="needs-translation">Ordinary indexing: [%s] [%s] [%s] [%s]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_11</context>
+        </context-group>
+      </trans-unit>
+      <group restype="x-gettext-plurals">
+        <trans-unit id="20[0]" resname="str_12">
+          <source>Plurals: 1 minute</source>
+          <target state="needs-translation">Plurals: 1 minute</target>
+          <context-group purpose="information">
+            <context context-type="source">str_12 [one] [other]</context>
+            <context context-type="x-plural-form">Form: One</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 1, 21, 31, 41, 51, 61, 71, 81...</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="20[1]" resname="str_12">
+          <source>Plurals: [%i] minutes</source>
+          <target state="needs-translation">Plurals: [%i] minutes</target>
+          <context-group purpose="information">
+            <context context-type="source">str_12 [one] [other]</context>
+            <context context-type="x-plural-form">Form: Few</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 2-4, 22-24, 32-34, 42-44, 52-54, 62...</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="20[2]" resname="str_12">
+          <source>Plurals: [%i] minutes</source>
+          <target state="needs-translation">Plurals: [%i] minutes</target>
+          <context-group purpose="information">
+            <context context-type="source">str_12 [one] [other]</context>
+            <context context-type="x-plural-form">Form: Many</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0, 5-19, 100, 1000, 10000...</context>
+          </context-group>
+        </trans-unit>
+        <trans-unit id="20[3]" resname="str_12">
+          <source>Plurals: [%i] minutes</source>
+          <target state="needs-translation">Plurals: [%i] minutes</target>
+          <context-group purpose="information">
+            <context context-type="source">str_12 [one] [other]</context>
+            <context context-type="x-plural-form">Form: Other</context>
+            <context context-type="x-plural-example">Translation will be used with numbers: 0.0-0.9, 1.1-1.6, 10.0, 100.0...</context>
+          </context-group>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file id="7" original="/root/folder/iosWithPlaceholders.strings" source-language="en" target-language="uk" datatype="plaintext" project-id="668876" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="25" resname="str_01">
+        <source>Format specifiers: [%s] [%] [%i], [%i] [%i], [%i] [%i] [%i] [%i], [%i] [%f] [%f] [%f] [%f] [%f] [%s] [%s] [%s] [%s] [%s] [%f] [%f] [%f]</source>
+        <target state="needs-translation">Format specifiers: [%s] [%] [%i], [%i] [%i], [%i] [%i] [%i] [%i], [%i] [%f] [%f] [%f] [%f] [%f] [%s] [%s] [%s] [%s] [%s] [%f] [%f] [%f]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_01</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26" resname="str_02">
+        <source>Positional specifiers: [%1$s] [%2$i], [%3$i] [%4$i], [%5$i] [%6$i] [%7$i] [%8$i], [%9$i] [%10$f] [%11$f] [%12$f] [%13$f] [%14$f] [%15$s] [%16$s] [%17$s] [%18$s] [%19$s] [%20$f] [%21$f] [%22$f]</source>
+        <target state="needs-translation">Positional specifiers: [%1$s] [%2$i], [%3$i] [%4$i], [%5$i] [%6$i] [%7$i] [%8$i], [%9$i] [%10$f] [%11$f] [%12$f] [%13$f] [%14$f] [%15$s] [%16$s] [%17$s] [%18$s] [%19$s] [%20$f] [%21$f] [%22$f]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_02</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27" resname="str_03">
+        <source>Length modifiers 'h': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'h': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_03</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="28" resname="str_04">
+        <source>Length modifiers 'hh': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'hh': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_04</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="29" resname="str_05">
+        <source>Length modifiers 'l': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'l': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_05</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="30" resname="str_06">
+        <source>Length modifiers 'll [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'll [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_06</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31" resname="str_07">
+        <source>Length modifiers 'q': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'q': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_07</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="32" resname="str_08">
+        <source>Length modifiers 'L': [%f], [%f], [%f], [%f], [%f], [%f], [%f], or [%f]</source>
+        <target state="needs-translation">Length modifiers 'L': [%f], [%f], [%f], [%f], [%f], [%f], [%f], or [%f]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_08</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33" resname="str_09">
+        <source>Length modifiers 'z': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'z': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_09</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34" resname="str_10">
+        <source>Length modifiers 't': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 't': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35" resname="str_11">
+        <source>Length modifiers 'j': [%i], [%i], [%i], [%i], or [%i]</source>
+        <target state="needs-translation">Length modifiers 'j': [%i], [%i], [%i], [%i], or [%i]</target>
+        <context-group purpose="information">
+          <context context-type="source">str_11</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

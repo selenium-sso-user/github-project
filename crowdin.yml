@@ -1,4 +1,2 @@
-files:
-  - source: source/tr
-    translation: /translation/%two_letters_code%/%original_file_name%
+files: []
 bundles: []

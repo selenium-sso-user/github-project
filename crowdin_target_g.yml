@@ -59,3 +59,6 @@ targets:
       - '*Placeholders'
     file: /bundle/%language%_customLanguageMapping.xliff
     format: xliff
+bundles:
+  - 1
+  - 2

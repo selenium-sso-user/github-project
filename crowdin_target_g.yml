@@ -59,3 +59,8 @@ targets:
       - '*Placeholders'
     file: /bundle/%language%_customLanguageMapping.xliff
     format: xliff
+  - name: New Fuxk
+    sources:
+      - '*'
+    file: '%two_letters_code%.xml'
+    format: android

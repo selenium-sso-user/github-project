@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="planets_array">
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Earth</item>
+    <item>Mars</item>
+    <item>Mercury root</item>
+    <item>Venus root</item>
+    <item>Earth root</item>
+    <item>Mars root</item>
+    <item>Mercury root folder</item>
+    <item>Venus root folder</item>
+    <item>Earth root folder</item>
+    <item>Mars root folder</item>
+  </string-array>
+  <string-array name="str_01">
+    <item>Conversions: %b %B %h %H %s %S %c %C %d %o %x %X %e %E %f %g %G %a %A %% %n</item>
+    <item>Format specifiers: %s %% %d, %D %u, %U %x %X %o, %O %f %e %E %g %G %c %C %s %S %p %a %A %F</item>
+  </string-array>
+  <string-array name="str_02">
+    <item>Flags Integral: %-d %#d %+d %  d %0d %,d %(d</item>
+    <item>Positional specifiers: %1$s %2$d, %3$D %4$u, %5$U %6$x %7$X %8$o, %9$O %10$f %11$e %12$E %13$g %14$G %15$c %16$C %17$s %18$S %19$p %20$a %21$A %22$F</item>
+  </string-array>
+  <string-array name="str_03">
+    <item>Flags Floating Point: %-f %#f %+f %  f %0f %,f %(f</item>
+    <item>Length modifiers \'h\': %hd, %ho, %hu, %hx, or %hX</item>
+  </string-array>
+  <string-array name="str_04">
+    <item>Formatting times: %tH %tI %tk %tl %tM %tS %tL %tN %tp %tx %tZ %ts %tQ</item>
+    <item>Length modifiers \'hh\': %hhd, %hho, %hhu, %hhx, or %hhX</item>
+  </string-array>
+  <string-array name="str_05">
+    <item>Formatting dates: %tB %tb %th %tA %ta %tC %tY %ty %tj %tm %td %td %te</item>
+    <item>Length modifiers \'l\': %ld, %lo, %lu, %lx, or %lX</item>
+  </string-array>
+  <string-array name="str_06">
+    <item>Formatting common date/time compositions: %tR %tT %tr %tD %tF %tc</item>
+    <item>Length modifiers \'ll %lld, %llo, %llu, %llx, or %llX</item>
+  </string-array>
+  <string-array name="str_07">
+    <item>Time formatted for the 24-hour clock as \"%tH:%tM:%tS\".</item>
+    <item>Length modifiers \'q\': %qd, %qo, %qu, %qx, or %qX</item>
+  </string-array>
+  <string-array name="str_08">
+    <item>Date formatted as \"%tm/%td/%ty\".</item>
+    <item>Length modifiers \'L\': %La, %LA, %Le, %LE, %Lf, %LF, %Lg, or %LG</item>
+  </string-array>
+  <string-array name="str_09">
+    <item>ISO 8601 complete date formatted as \"%tY-%tm-%td\".</item>
+    <item>Length modifiers \'z\': %zd, %zo, %zu, %zx, or %zX</item>
+  </string-array>
+  <string-array name="str_10">
+    <item>Explicit indexing: %4$s %3$s %2$s %1$s %4$s %3$s %2$s %1$s</item>
+    <item>Length modifiers \'t\': %td, %to, %tu, %tx, or %tX</item>
+  </string-array>
+  <string-array name="str_11">
+    <item>Ordinary indexing: %s %s %s %s</item>
+    <item>Length modifiers \'j\': %jd, %jo, %ju, %jx, or %jX</item>
+  </string-array>
+  <plurals name="str_12">
+    <item quantity="one">Plurals: 1 minute</item>
+    <item quantity="few">Plurals: %d minutes</item>
+    <item quantity="many">Plurals: %d minutes</item>
+    <item quantity="other">Plurals: %d minutes</item>
+  </plurals>
+</resources>

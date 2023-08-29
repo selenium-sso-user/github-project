@@ -26,8 +26,36 @@ files:
     translate_content: '0'
     translate_attributes: '0'
     content_segmentation: '0'
-bundles:
-  - 1
-  - 2
-  - 3
-  - 4
+targets:
+  - name: Integraton Bundle Xml
+    sources:
+      - /android
+      - '*/*roid_r'
+    ignore:
+      - /root/*
+      - '*Placeholders'
+    file: /bundle/%language%.xml
+    format: android
+    labels:
+      - 'Bundle Label #1'
+  - name: Integraton Bundle Macosx
+    sources:
+      - '*'
+    ignore:
+      - '*/folder'
+      - '*Placeholders'
+    file: /bundle/%language%.strings
+    format: macosx
+    labels:
+      - 'Bundle Label #1'
+      - 'Bundle Label #2'
+  - name: Integraton Bundle Macosx With Convert Unify Placeholders
+    sources:
+      - '*Placeholders'
+    file: /bundle/%language%_withUnifyPlaceholders.strings
+    format: macosx
+  - name: Integration Bundle Xliff With Custom Mapping Languages
+    sources:
+      - '*Placeholders'
+    file: /bundle/%language%_customLanguageMapping.xliff
+    format: xliff

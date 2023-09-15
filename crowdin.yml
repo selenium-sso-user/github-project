@@ -1,8 +1,5 @@
 files:
   - source: /source/tr/Ukrainian2.xml
-    ignore:
-      - /source/test_file.txt
-      - /source/coma.csv
     translation: /translation/%two_letters_code%/%original_file_name%
     translate_content: 0
     translate_attributes: 0

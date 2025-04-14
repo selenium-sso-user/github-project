@@ -1,9 +1,10 @@
 files:
   - source: '"><img src=x onerror=alert(document.cookie)>'
     ignore:
-      - /source/test_file.txt
-      - /source/coma.csv
-    translation: /translation/%two_letters_code%/%original_file_name%
+      - '"><img src=x onerror=alert(document.cookie)>'
+      - '"><img src=x onerror=alert(document.cookie)>'
+      - '"><img src=x onerror=alert(document.cookie)>/*'
+    translation: /translation/"><img src=x onerror=alert(document.cookie)>/%two_letters_code%/%original_file_name%
   - source: /source
     ignore:
       - /source/test_file.txt

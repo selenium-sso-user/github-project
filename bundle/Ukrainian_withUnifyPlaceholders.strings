@@ -1,0 +1,24 @@
+"str_01" = "Conversions: %@ %@ %@ %@ %@ %@ %@ %@ %d %d %d %d %f %f %f %f %f %f %f %% %@";
+"str_02" = "Flags Integral: %d %d %d %  d %d %d %d";
+"str_03" = "Flags Floating Point: %f %f %f %  f %f %f %f";
+"str_04" = "Formatting times: %@ %@ %@ %@ %@ %@ %@ %@ %@ %d %@ %@ %@";
+"str_05" = "Formatting dates: %@ %@ %@ %f %f %@ %@ %@ %@ %@ %d %d %f";
+"str_06" = "Formatting common date/time compositions: %@ %@ %@ %@ %@ %@";
+"str_07" = "Time formatted for the 24-hour clock as \"%@:%@:%@\".";
+"str_08" = "Date formatted as \"%@/%d/%@\".";
+"str_09" = "ISO 8601 complete date formatted as \"%@-%@-%d\".";
+"str_10" = "Explicit indexing: %4$@ %3$@ %2$@ %1$@ %4$@ %3$@ %2$@ %1$@";
+"str_11" = "Ordinary indexing: %@ %@ %@ %@";
+/* str_12 [one] [other] */
+"str_12" = "Plurals: 1 minute";
+"str_01" = "Format specifiers: %@ %% %d, %d %d, %d %d %d %d, %d %f %f %f %f %f %@ %@ %@ %@ %@ %f %f %f";
+"str_02" = "Positional specifiers: %1$@ %2$d, %3$d %4$d, %5$d %6$d %7$d %8$d, %9$d %10$f %11$f %12$f %13$f %14$f %15$@ %16$@ %17$@ %18$@ %19$@ %20$f %21$f %22$f";
+"str_03" = "Length modifiers \'h\': %d, %d, %d, %d, or %d";
+"str_04" = "Length modifiers \'hh\': %d, %d, %d, %d, or %d";
+"str_05" = "Length modifiers \'l\': %d, %d, %d, %d, or %d";
+"str_06" = "Length modifiers \'ll %d, %d, %d, %d, or %d";
+"str_07" = "Length modifiers \'q\': %d, %d, %d, %d, or %d";
+"str_08" = "Length modifiers \'L\': %f, %f, %f, %f, %f, %f, %f, or %f";
+"str_09" = "Length modifiers \'z\': %d, %d, %d, %d, or %d";
+"str_10" = "Length modifiers \'t\': %d, %d, %d, %d, or %d";
+"str_11" = "Length modifiers \'j\': %d, %d, %d, %d, or %d";

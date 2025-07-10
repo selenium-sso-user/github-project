@@ -2,23 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="Calculated_Columns">
     <title><ph conref="../../business/conref_source_labels.dita#crl/t_t_calculatedcolumn"/></title>
-    <shortdesc>Contains one row for each calculated column999999999999999999999999.</shortdesc>
+    <shortdesc>Enthält eine Zeile für jede berechnete Spalte 99999999999999999999999999.</shortdesc>
     <conbody>
         <section>
-        <p>Calculated columns come in addition to model columns, and do not require any programming or database upgrades. Calculated columns exists only in memory, not in the database. A calculated column is defined by a formula, that typically refers to model columns.</p>
-        <p>When you save changes to an existing calculated column, the changes will take effect immediately. If you add a new calculated column, the changes will be effective next time the program is started. Other users must also restart the program to see the changes.</p>
-        <p>Calculated columns that are not visible in a table page element, will appear together with the model columns in the dialog box for the <uicontrol
-                conref="../conref_source_commands.dita#crcmd/gc_submenuchoice_unhidecolumn"/> command (in the <uicontrol
-                conref="../conref_source_commands.dita#crcmd/gc_submenu_column"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> tab, or in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_home"/> tab). Calculated columns can also be retrieved from underlying tables. References to calculated columns are included in the layouts.</p>
-        <p>When reading data, columns that calculated columns are dependent on will also be read. Values in calculated columns are recalculated when dependent fields are changed.</p>
-        <p>Calculated columns are read-only. An error message will be given if you try to edit fields in calculated columns. Like other memory columns, you can&apos;t make selections or do sorting in them, and the <ph conref="../conref_source_expression.dita#c_expr/search_row"
-            /> command is greyed out whenever the field pointer is located in a calculated column. The <uicontrol
-                conref="../../business/conref_source_labels.dita#crl/p_accessgroup_columnaccess"/> processing only apply to model columns.</p>
-        <p>Calculated columns are included on printouts. If <option>Number</option> or <option>Mixed</option> is selected in the <uicontrol>Table heading</uicontrol> list in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"
-            /> dialog box (e.g. invoked from the <uicontrol
-                conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"/> command in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menu_printing"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> tab), the column numbers for the calculated columns will be included in the file when writing to a file.</p>
+        <p>Die berechneten Spalten werden zusätzlich zu den Modellspalten erstellt und erfordern keine Programmier- oder Datenbank-Upgrades. Berechnete Spalten existieren nur im Speicher, nicht in der Datenbank. Eine berechnete Spalte wird durch eine Formel definiert, die typischerweise auf Modellspalten verweist.</p>
+        <p>Wenn Sie Änderungen an einer bestehenden berechneten Spalte speichern, werden die Änderungen sofort wirksam. Wenn Sie eine neue berechnete Spalte hinzufügen, werden die Änderungen beim nächsten Programmstart wirksam. Andere Benutzer müssen das Programm auch neu starten, um die Änderungen zu sehen.</p>
+        <p>Berechnete Spalten die in einem Tabellenelement nicht sichtbar sind, wird zusammen mit den Modellspalten im Dialogfenster des <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_submenuchoice_unhidecolumn"/> -Befehls angezeigt (in der <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_submenu_column"/> Gruppe im <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> Tab oder in der <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> Gruppe im <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_home"/> Tab). Berechnete Spalten können auch aus den zugrunde liegenden Tabellen abgerufen werden. Verweise auf berechnete Spalten sind im Layout enthalten.</p>
+        <p>Beim Lesen von Daten werden Spalten, von denen berechnete Spalten abhängig sind, ebenfalls gelesen. Werte in berechneten Spalten werden neu berechnet, wenn abhängige Felder geändert werden.</p>
+        <p>Berechnete Spalten sind schreibgeschützt. Wenn Sie versuchen, Felder in berechneten Spalten zu bearbeiten, wird eine Fehlermeldung angezeigt. Wie andere Speicherspalten können Sie keine Auswahl treffen oder sortieren in ihnen und der Befehl <ph conref="../conref_source_expression.dita#c_expr/search_row"
+            /> ist ausgegraut, wenn sich der Feldzeiger in einer berechneten Spalte befindet. Die <uicontrol
+                conref="../../business/conref_source_labels.dita#crl/p_accessgroup_columnaccess"/> Verarbeitung gilt nur für Modellspalten.</p>
+        <p>Berechnete Spalten sind bei Ausdrucken enthalten. Wenn <option>Nummer</option> oder <option>Gemischt</option> in der <uicontrol>Tabellenüberschrift</uicontrol> im Dialogfenster <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"
+            /> ausgewählt wird (e. . vom <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"/> Befehl in der <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menu_printing"/> Gruppe im <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> Tab aufgerufen), die Spaltennummern für die berechneten Spalten werden beim Schreiben in eine Datei in die Datei aufgenommen.</p>
             </section>
-            <section><p><b>VB-9500 - Total sum on <uicontrol>Profit and Loss account with org unit - 12 months</uicontrol> </b></p>The total sum on the report <uicontrol>Profit and Loss account with org unit - 12 months</uicontrol> was not considering period selection, but the whole year selection. <ph
+            <section><p><b>VB-9500 - Gesamtsumme auf <uicontrol>Gewinn- und Verlustkonto mit org-Einheit - 12 Monate</uicontrol> </b></p>Die Gesamtsumme auf dem Bericht <uicontrol>Gewinn- und Verlustkonto mit org-Einheit - 12 Monate</uicontrol> hat keine Zeitspanne gewählt, aber das ganze Jahr Auswahl. <ph
             conref="../../../shared/conref_source_texts.dita#c20121019081115267/has_been_solved"
             /></section>
     </conbody>

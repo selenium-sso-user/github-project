@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="Calculated_Columns">
+    <title><ph conref="../../business/conref_source_labels.dita#crl/t_t_calculatedcolumn"/></title>
+    <shortdesc>Contains one row for each calculated column999999999999999999999999.</shortdesc>
+    <conbody>
+        <section>
+        <p>Calculated columns come in addition to model columns, and do not require any programming or database upgrades. Calculated columns exists only in memory, not in the database. A calculated column is defined by a formula, that typically refers to model columns.</p>
+        <p>When you save changes to an existing calculated column, the changes will take effect immediately. If you add a new calculated column, the changes will be effective next time the program is started. Other users must also restart the program to see the changes.</p>
+        <p>Calculated columns that are not visible in a table page element, will appear together with the model columns in the dialog box for the <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_submenuchoice_unhidecolumn"/> command (in the <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_submenu_column"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> tab, or in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_home"/> tab). Calculated columns can also be retrieved from underlying tables. References to calculated columns are included in the layouts.</p>
+        <p>When reading data, columns that calculated columns are dependent on will also be read. Values in calculated columns are recalculated when dependent fields are changed.</p>
+        <p>Calculated columns are read-only. An error message will be given if you try to edit fields in calculated columns. Like other memory columns, you can&apos;t make selections or do sorting in them, and the <ph conref="../conref_source_expression.dita#c_expr/search_row"
+            /> command is greyed out whenever the field pointer is located in a calculated column. The <uicontrol
+                conref="../../business/conref_source_labels.dita#crl/p_accessgroup_columnaccess"/> processing only apply to model columns.</p>
+        <p>Calculated columns are included on printouts. If <option>Number</option> or <option>Mixed</option> is selected in the <uicontrol>Table heading</uicontrol> list in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"
+            /> dialog box (e.g. invoked from the <uicontrol
+                conref="../conref_source_commands.dita#crcmd/gc_menuchoice_pagesetup"/> command in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_menu_printing"/> group in the <uicontrol conref="../conref_source_commands.dita#crcmd/gc_category_design"/> tab), the column numbers for the calculated columns will be included in the file when writing to a file.</p>
+            </section>
+            <section><p><b>VB-9500 - Total sum on <uicontrol>Profit and Loss account with org unit - 12 months</uicontrol> </b></p>The total sum on the report <uicontrol>Profit and Loss account with org unit - 12 months</uicontrol> was not considering period selection, but the whole year selection. <ph
+            conref="../../../shared/conref_source_texts.dita#c20121019081115267/has_been_solved"
+            /></section>
+    </conbody>
+</concept>

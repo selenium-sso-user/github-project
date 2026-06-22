@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="planets_array">
+    <item>Venus</item>
+    <item>Mars</item>
+    <item>Venus root folder</item>
+    <item>Mars root folder</item>
+  </string-array>
+</resources>
